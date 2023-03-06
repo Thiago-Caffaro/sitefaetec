@@ -1,0 +1,74 @@
+html, body{
+  width: 100%;
+}
+
+*{
+  margin: 0;
+}
+#title{
+  position: relative;
+  width: 400px;
+  height: 75px;
+  margin: auto;
+  top: -8px;
+
+  background: #7A9AEB;
+  box-shadow: 1px 14px 25px 3px rgba(0, 0, 0, 0.25);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+#BlocoEsq{
+  position: absolute;
+  width: 20%;
+  height: auto;
+  min-height: 100vh;
+  left: 0px;
+  top: 0px;
+
+  background: #86D8FB;
+}
+#BlocoDir{
+  position: absolute;
+  width: 20%;
+  height: auto;
+  min-height: 100vh;
+  right: 0px;
+  top: 0px;
+
+  background: #86D8FB;
+
+}
+.subject{
+  box-sizing: border-box;
+
+  position: relative;
+  width: 60px;
+  height: 220px;
+  margin-bottom: 10px;
+  
+  display: flex;
+
+  border: 1px solid #6e6e6e;
+  border-top-right-radius: 17px;
+  border-bottom-right-radius: 17px;
+
+  background-color: #BBBBBB;
+}
+.esq{
+  left: 100%;
+}
+.dir{
+  transform: rotateY(180deg) translateX(60px);
+}
+.nome_materia{
+  font-weight: 300;
+  font-size: 34px;
+  line-height: 220%;
+  height: fit-content;
+
+  color: #000000;
+
+}
+
+
